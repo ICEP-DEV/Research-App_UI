@@ -56,11 +56,11 @@
           </div>
         </div>
         <div class="inputBox">
-          <input type="studNumber" [(ngModel)]="signUpForm.studNumber" name="studNumber" #studNumber="ngModel" minlength="9"
+          <input type="studNumber" [(ngModel)]="signUpForm.idNumber" name="idNumber" #idNumber="ngModel" minlength="9"
             maxlength="9" required placeholder="Student No" class="form-input" id="idNumber">
-          <div *ngIf="studNumber.invalid && studNumber.touched" class="alert alert-danger">
-            <div *ngIf="studNumber.errors?.['required']">studNumber is required.</div>
-            <div *ngIf="studNumber.errors?.['minlength'] || studNumber.errors?.['maxlength']">ID Number must be 9
+          <div *ngIf="idNumber.invalid && idNumber.touched" class="alert alert-danger">
+            <div *ngIf="idNumber.errors?.['required']">idNumber is required.</div>
+            <div *ngIf="idNumber.errors?.['minlength'] || idNumber.errors?.['maxlength']">ID Number must be 9
               characters long.</div>
 
           </div>
