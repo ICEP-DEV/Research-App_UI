@@ -29,7 +29,8 @@ export class AdminManageStudentsComponent implements OnInit {
         "updatedAt": "2022-03-17T09:34:15.000Z",
         "disciplineId": 9,
         "studNumber": 216071433,
-        "Department":""
+        "Department":"",
+        "Gender": ""
     },
     {
         "id": 2,
@@ -47,7 +48,8 @@ export class AdminManageStudentsComponent implements OnInit {
         "updatedAt": "2022-03-25T15:52:50.000Z",
         "disciplineId": 9,
         "studNumber": 216071434,
-        "Department":""
+        "Department":"",
+        "Gender": ""
     },
      {
         "id": 11,
@@ -65,7 +67,8 @@ export class AdminManageStudentsComponent implements OnInit {
         "updatedAt": "2022-09-19T12:56:58.000Z",
         "disciplineId": 9,
         "studNumber": 216071435,
-        "Department":""
+        "Department":"",
+        "Gender": ""
     },
     {
         "id": 12,
@@ -83,7 +86,8 @@ export class AdminManageStudentsComponent implements OnInit {
         "updatedAt": "2022-10-31T06:11:32.000Z",
         "disciplineId": 9,
         "studNumber": 216071436,
-        "Department":""
+        "Department":"",
+        "Gender": ""
     },
      {
         "id": 14,
@@ -101,7 +105,8 @@ export class AdminManageStudentsComponent implements OnInit {
         "updatedAt": "2022-11-01T01:57:41.000Z",
         "disciplineId": 9,
         "studNumber": 21607147,
-        "Department":""
+        "Department":"",
+        "Gender": ""
     },
     {
         "id": 15,
@@ -119,7 +124,8 @@ export class AdminManageStudentsComponent implements OnInit {
         "updatedAt": "2022-11-01T01:58:19.000Z",
         "disciplineId": 9,
         "studNumber": 216071438,
-        "Department":""
+        "Department":"",
+        "Gender": ""
     },
     {
         "id": 16,
@@ -137,7 +143,8 @@ export class AdminManageStudentsComponent implements OnInit {
         "updatedAt": "2022-11-01T01:58:58.000Z",
         "disciplineId": 9,
         "studNumber": 216071439,
-        "Department":""
+        "Department":"",
+        "Gender": ""
     },
     {
         "id": 17,
@@ -155,7 +162,8 @@ export class AdminManageStudentsComponent implements OnInit {
         "updatedAt": "2022-11-01T02:26:36.000Z",
         "disciplineId": 9,
         "studNumber": 216071440,
-        "Department":""
+        "Department":"",
+        "Gender": ""
     },
     {
         "id": 18,
@@ -173,7 +181,8 @@ export class AdminManageStudentsComponent implements OnInit {
         "updatedAt": "2022-11-01T08:10:46.000Z",
         "disciplineId": 9,
         "studNumber": 216071441,
-        "Department":""
+        "Department":"",
+        "Gender": ""
     },
     {
         "id": 19,
@@ -191,7 +200,8 @@ export class AdminManageStudentsComponent implements OnInit {
         "updatedAt": "2022-11-01T10:30:20.000Z",
         "disciplineId": 9,
         "studNumber": 216071442,
-        "Department":""
+        "Department":"",
+        "Gender": ""
     },
     {
         "id": 20,
@@ -209,7 +219,8 @@ export class AdminManageStudentsComponent implements OnInit {
         "updatedAt": "2022-11-01T10:31:58.000Z",
         "disciplineId": 9,
         "studNumber": 216071443,
-        "Department":""
+        "Department":"",
+        "Gender": ""
     },
     {
         "id": 22,
@@ -227,7 +238,8 @@ export class AdminManageStudentsComponent implements OnInit {
         "updatedAt": "2022-11-16T07:07:38.000Z",
         "disciplineId": 9,
         "studNumber": 216071444,
-        "Department":""
+        "Department":"",
+        "Gender": ""
     },
     {
         "id": 23,
@@ -245,7 +257,8 @@ export class AdminManageStudentsComponent implements OnInit {
         "updatedAt": "2022-11-17T07:21:10.000Z",
         "disciplineId": 9,
         "studNumber": 216071445,
-        "Department":""
+        "Department":"",
+        "Gender": ""
     },
     {
         "id": 24,
@@ -263,7 +276,8 @@ export class AdminManageStudentsComponent implements OnInit {
         "updatedAt": "2022-11-17T07:25:50.000Z",
         "disciplineId": 9,
         "studNumber": 216071446,
-        "Department":""
+        "Department":"",
+        "Gender": ""
     },
     {
         "id": 25,
@@ -281,7 +295,8 @@ export class AdminManageStudentsComponent implements OnInit {
         "updatedAt": "2022-11-17T07:27:10.000Z",
         "disciplineId": 9,
         "studNumber": 216071447,
-        "Department":""
+        "Department":"",
+        "Gender": ""
     },
     {
         "id": 26,
@@ -299,7 +314,8 @@ export class AdminManageStudentsComponent implements OnInit {
         "updatedAt": "2022-11-17T07:28:30.000Z",
         "disciplineId": 9,
         "studNumber": 216071448,
-        "Department":""
+        "Department":"",
+        "Gender": ""
     },
     {
         "id": 27,
@@ -317,7 +333,8 @@ export class AdminManageStudentsComponent implements OnInit {
         "updatedAt": "2022-11-17T07:30:55.000Z",
         "disciplineId": 9,
         "studNumber": 216071449,
-        "Department":""
+        "Department":"",
+        "Gender": ""
     },
     {
         "id": 28,
@@ -335,7 +352,8 @@ export class AdminManageStudentsComponent implements OnInit {
         "updatedAt": "2022-11-17T07:34:53.000Z",
         "disciplineId": 9,
         "studNumber": 216071450,
-        "Department":""
+        "Department":"",
+        "Gender": ""
     },
     {
         "id": 29,
@@ -353,7 +371,8 @@ export class AdminManageStudentsComponent implements OnInit {
         "updatedAt": "2022-11-19T12:20:01.000Z",
         "disciplineId": 9,
         "studNumber": 216071451,
-        "Department":""
+        "Department":"",
+        "Gender": ""
     },
     {
         "id": 30,
@@ -371,7 +390,8 @@ export class AdminManageStudentsComponent implements OnInit {
         "updatedAt": "2022-11-20T09:32:51.000Z",
         "disciplineId": 9,
         "studNumber": 216071452,
-        "Department":""
+        "Department":"",
+        "Gender": ""
     },
     {
         "id": 31,
@@ -389,7 +409,8 @@ export class AdminManageStudentsComponent implements OnInit {
         "updatedAt": "2022-11-21T07:56:16.000Z",
         "disciplineId": 9,
         "studNumber": 216071453,
-        "Department":""
+        "Department":"",
+        "Gender": ""
     }]
 
 }

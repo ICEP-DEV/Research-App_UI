@@ -9,6 +9,7 @@ export class User{
     confirmPassword: string = '';
     photo: string = '';
     idNumber: number | undefined ;
+    studNumber: number | undefined;
     title: string = '';
     verified: boolean = true;
     references: number | undefined;
