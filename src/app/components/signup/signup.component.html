@@ -56,11 +56,11 @@
           </div>
         </div>
         <div class="inputBox">
-          <input type="studNumber" [(ngModel)]="signUpForm.idNumber" name="idNumber" #idNumber="ngModel" minlength="9"
-            maxlength="9" required placeholder="Student No" class="form-input" id="idNumber">
+          <input type="studNumber" [(ngModel)]="signUpForm.idNumber" name="idNumber" #idNumber="ngModel" minlength="13"
+            maxlength="13" required placeholder="ID Number" class="form-input" id="idNumber">
           <div *ngIf="idNumber.invalid && idNumber.touched" class="alert alert-danger">
-            <div *ngIf="idNumber.errors?.['required']">idNumber is required.</div>
-            <div *ngIf="idNumber.errors?.['minlength'] || idNumber.errors?.['maxlength']">ID Number must be 9
+            <div *ngIf="idNumber.errors?.['required']">ID Number is required.</div>
+            <div *ngIf="idNumber.errors?.['minlength'] || idNumber.errors?.['maxlength']">ID Number must be 13
               characters long.</div>
 
           </div>
@@ -83,11 +83,11 @@
         </div>
 
         <div class="inputBox">
-          <input type="password" [(ngModel)]="signUpForm.password" name="password" #password="ngModel" minlength="6"
+          <input type="password" [(ngModel)]="signUpForm.password" name="password" #password="ngModel" minlength="8"
             required placeholder="Password" class="form-input" id="password">
           <div *ngIf="password.invalid && password.touched" class="alert alert-danger">
             <div *ngIf="password.errors?.['required']">Password is required.</div>
-            <div *ngIf="password.errors?.['minlength']">Password must be at least 6 characters long.</div>
+            <div *ngIf="password.errors?.['minlength']">Password must be at least 8 characters long.</div>
           </div>
 
         </div>
@@ -96,12 +96,12 @@
 
         <div class="inputBox">
           <input type="password" (keyup)="checkPassword()" [(ngModel)]="signUpForm.confirmPassword"
-            name="confirmPassword" #confirmPassword="ngModel" minlength="6" required placeholder="Repeat your password"
+            name="confirmPassword" #confirmPassword="ngModel" minlength="8" required placeholder="Repeat your password"
             class="form-input" id="confirmPassword">
           <div *ngIf="confirmPassword.invalid && confirmPassword.touched || pCheck.length > 0"
             class="alert alert-danger">
             <div *ngIf="confirmPassword.errors?.['required']">Confirm Password is required.</div>
-            <div *ngIf="confirmPassword.errors?.['minlength']">Confirm Password must be at least 6 characters long.
+            <div *ngIf="confirmPassword.errors?.['minlength']">Confirm Password must be at least 8 characters long.
             </div>
             <div *ngIf="pCheck.length > 0">{{pCheck}}</div>
           </div>
