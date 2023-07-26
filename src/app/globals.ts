@@ -4,7 +4,8 @@
 
 'use strict';
 export const sep='/';
-export const url = 'https://tutresearchapp.com/api/v1/'
+// export const url = 'https://tutresearchapp.com/api/v1/'
+export const url = 'http://localhost:3000/api/v1/'
 export class GlobalVariables {
     constructor () {}
     static isToBeShown =false;

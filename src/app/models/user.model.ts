@@ -13,5 +13,6 @@ export class User{
     verified: boolean = true;
     references: number | undefined;
     createdAt: Date |undefined;
-    updatedAt: Date |undefined
+    updatedAt: Date |undefined;
+    studNumber: number | undefined 
 }
